@@ -96,8 +96,8 @@ st.set_page_config(
 )
 
 # Load Models
-tokenizer1, word_to_index1, index_to_word1, encoder1, decoder_pred_model1 = load_models('/Users/yapyu/Desktop/Final Deployment/Final Models/Attention Flickr/Attention Flickr 30K EffNetV2B3 (1069) v1')
-tokenizer2, word_to_index2, index_to_word2, encoder2, decoder_pred_model2 = load_models('/Users/yapyu/Desktop/Final Deployment/Final Models/Additive Attention Flickr/Additive Attention Flickr 30K EffNetV2B3 (662) v10')
+tokenizer1, word_to_index1, index_to_word1, encoder1, decoder_pred_model1 = load_models('Final Models/Attention Flickr/Attention Flickr 30K EffNetV2B3 (1069) v1')
+tokenizer2, word_to_index2, index_to_word2, encoder2, decoder_pred_model2 = load_models('Final Models/Additive Attention Flickr/Additive Attention Flickr 30K EffNetV2B3 (662) v10')
 # Streamlit webpage layout
 st.title("Image Caption Generator")
 
