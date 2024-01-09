@@ -44,7 +44,7 @@ def load_models(base_model_path):
 
     return tokenizer, word_to_index, index_to_word, encoder, decoder_pred_model
 
-@st.cache_data
+
 def beam_search(img, tokenizer, word_to_index, index_to_word, encoder, decoder_pred_model, beam_width=3):
 
     # Extract features using the encoder
