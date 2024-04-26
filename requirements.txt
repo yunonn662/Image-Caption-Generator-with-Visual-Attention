@@ -4,5 +4,5 @@ pandas
 Pillow
 streamlit
 streamlit_option_menu
-tensorflow
+tensorflow==2.12.0
 
