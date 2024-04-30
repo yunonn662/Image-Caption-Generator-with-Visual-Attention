@@ -1,6 +1,7 @@
 # Image Caption Generator with Visual Attention
 This is my Data Science Project/Final Year Project for my Third Year 1st Semester in University of Malaya.
 - The app can be accessed through [Streamlit Cloud App](https://image-caption-generator-with-visual-attention-s2105674.streamlit.app/). If the app is in sleep mode (inactive for more than 7 days), please wake the app up.
+- The [Project Report](https://github.com/yunonn662/Image-Caption-Generator-with-Visual-Attention/blob/352dcd8f46756f75f967a9b3b43a75bb139990af/YAP%20YUN%20ONN_S2105674%20WIH3001%20Data%20Science%20Project%20Report.pdf) contains the evaluation metrics (i.e. BLEU, ROUGE-L, CIDEr, and METEOR) and the architectures of all the models.
 ## Objectives:
 1. To model Context-Aware Image Captioning: Improve the contextual understanding of images by incorporating the encoder-decoder architecture. This architecture will capture relationships between the visual content and textual descriptions, leading to the generation of more coherent and context-aware image captions.
 2. To implement an Attention Mechanism into the Model: Develop and integrate different visual attention mechanism and into the image captioning model, allowing it to focus on relevant image regions during
